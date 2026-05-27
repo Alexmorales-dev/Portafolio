@@ -370,13 +370,15 @@ nav {
     will-change: transform;
 
 }
-
+/*
 @media screen and (max-width: 768px) {
     .card {
         top: 10vw;
 
     }
 }
+
+*/
 
 .tarjet-titulo {
     font-family: 'fuente1';
