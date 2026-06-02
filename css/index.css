@@ -199,7 +199,7 @@ nav {
 }
 
 .text-titulo {
-    padding: 6vw 20vw;
+    padding: 6dvh 20vw;
     font-size: 7vw;
     font-family: 'fuente2';
 }
@@ -322,60 +322,27 @@ nav {
     height: auto;
 
 }
-/*
-.contenedor-tarjet {
-    position: relative;
-    width: 100%;
-    height: 30vw;
-    margin: 5vw 0vw;
-    border-radius: 15px;
-    display: flex;
-    align-content:space-between;
-    padding: 1vw;
-    border: solid 1px #000000;
-}
-
-*/
 
 .stack {
-  height: 180vw; /* espacio para scroll */
-  position: relative;
-  
-}
-
-@media screen and (max-width: 375px) {
-    .stack {
-        height: 70vw;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .stack {
-        height: 70vw;
-    }
+    height: 270dvh; /* espacio para scroll */
+    position: relative;
 }
 
 .card {
-  position: sticky;
-  top: 25vh; /* TODAS se quedan en el mismo punto */
-  background:#BABEC8;
-  display: flex;
+    position: sticky;
+    top: 25dvb; /* TODAS se quedan en el mismo punto */
+    background:#BABEC8;
+    display: flex;
     width: 100%;
-    height: 30vw;
-    margin: 6vw 0vw;
+    height: 65dvh;
+    max-height: 900px;
+    min-height: 200px;
     border-radius: 15px;
     align-content:space-between;
     padding: 1vw;
     border: solid 1px #000000;
     will-change: transform;
 
-}
-
-@media screen and (max-width: 768px) {
-    .card {
-        top: 10vw;
-
-    }
 }
 
 .tarjet-titulo {
