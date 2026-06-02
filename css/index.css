@@ -6,7 +6,16 @@
 
 body {
     background-color:#BABEC8;
+}
 
+.padding-lef-and-rinht {
+    padding: 0vw 20vw;
+}
+
+@media (max-width: 1199px) {
+    .padding-lef-and-rinht {
+        padding: 0vw 5vw;
+    }
 }
 
 header {
@@ -136,11 +145,10 @@ nav {
 }
 
 .hello {
-    padding: 0 20vw;
-    font-size: 1vw;
+    font-size: 1.5vw;
     top: -25vw;
     position: relative;
-    font-family: 'fuente2','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'fuente1','Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 @font-face{
@@ -149,7 +157,6 @@ nav {
 }
 
 .ing {
-    padding: 0 20vw;
     font-size: 7vw;
     top: -25vw;
     position: relative;
@@ -167,7 +174,7 @@ nav {
     "a a b";
     justify-content: center;
     margin: 0px auto;
-    width: 60%;
+    /*width: 60%;*/
     font-family: 'fuente3';
     font-size: 1.5vw;
     top: -9vw;
@@ -199,14 +206,10 @@ nav {
 }
 
 .text-titulo {
-    padding: 6dvh 20vw;
     font-size: 7vw;
     font-family: 'fuente2';
 }
 
-.container-cv {
-    padding: 0vw 20vw;
-}
 
 .subtitle-educacion {
     font-size: 2vw;
