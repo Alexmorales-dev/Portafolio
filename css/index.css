@@ -203,15 +203,15 @@ nav {
 }
 
 .text-titulo {
-    font-size: clamp(7vh, 7vw, 7vw);
+    font-size: clamp(2rem, 7vw, 7vw);
     font-family: 'fuente2';
-    margin: 10vw 0px;
+    margin: 20px 0px;
 }
 
 
 .subtitle-educacion {
-    font-size: 2vw;
-    font-family: 'fuente3';
+    font-size: 3vw;
+    font-family: 'fuente';
     border-bottom: solid 0.1vw #000000;
     padding: 5vw 0vw;
 }
@@ -222,76 +222,54 @@ nav {
     justify-content:space-between;
     width: 100%;
     height: 14vw;
-    border-top: solid 0.1vw #000000;
-    border-bottom: solid 0.1vw #000000;
-    font-family: 'fuente3';
+    border-top: solid 0.1px #000000;
+    border-bottom: solid 0.1px #000000;
+    font-family: 'fuente';
     gap: 10vw;
-}
-
-.fecha-graduacion {
-    font-size: 1.3vw;
+    font-size: clamp(0.4rem,2vw, 1rem);
 }
 
 @font-face {
-    font-family: 'fuente1';
+    font-family: 'fuente';
     src: url(../fonts/Oswald-ExtraLight.ttf);
 }
 
-.nom-escuela{
-    font-weight:bold;
-    font-size: 2vw;
-}
-
-.nom-Titulo {
-    font-family: 'fuente1';
-    font-size: 1.4vw;
-}
-
 .subtitle-experiencia {
-    font-size: 2vw;
-    font-family: 'fuente3';
+    font-size: 3vw;
+    font-family: 'fuente';
     padding: 5vw 0vw;
-    border-top: solid 0.1vw #000000;
-    border-bottom: solid 0.1vw #000000;
+    border-top: solid 0.1px #000000;
+    border-bottom: solid 0.1px #000000;
 }
 
 .container-experiencia1 {
     display: flex;
     justify-content:space-between;
     width: 100%;
-    border-top: solid 0.1vw #000000;
-    border-bottom: solid 0.1vw #000000;
-    font-family: 'fuente3';
-    gap: 2vw;
+    border-top: solid 0.1px #000000;
+    border-bottom: solid 0.1px #000000;
+    font-family: 'fuente';
+    gap: 3vw;
     padding: 3vw 0vw;
-}
-
-.cont-ep1 {
-    width: 40vw;
-    font-size: 1vw;
+    font-size: clamp(0.6rem, 1.4vw, 1.5rem);
 }
 
 .actividades1 {
-    font-size: 1vw;
+    width:70vh;
 }
 
-.are1 {
-    font-family: 'fuente1';
-}
-
-.cont-uf1 {
-    width: 25vw;
-    font-size: 1vw;
-    text-align: end;
-}
-
-.fecha1 {
-    font-family: 'fuente1';
+@media (max-width: 500px){
+    .container-experiencia1 {
+        flex-direction: column;
+    }
+    .actividades1{
+        width:auto;
+    }
 }
 
 .subtitle-Herramienta {
-    font-size: 2vw;
-    font-family: 'fuente3';
+    font-size: 3vw;
+    font-family: 'fuente';
     padding: 5vw 0vw;
     border-top: solid 0.1vw #000000;
 }
@@ -308,8 +286,8 @@ nav {
 }
 
 .img-hm {
-    width: 14vw;
-    height: 14vw;
+    width: clamp(17vh, 14vw, 14vw);
+    height: clamp(17vh, 14vw, 14vw);
     border-radius: 15px;
     border: solid 0.5px #000000;
     font-size: 1vw;
@@ -319,13 +297,17 @@ nav {
 }
 
 .logos-h {
-    width: 10vw;
+    width: clamp(10vh, 10vw, 10vw);
     height: auto;
 
 }
 
+.My-completed-project {
+    /*margin-top: 1vw;*/
+}
+
 .stack {
-    height: 270dvh; /* espacio para scroll */
+    height: 260dvh; /* espacio para scroll */
     position: relative;
 }
 
