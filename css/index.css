@@ -251,7 +251,7 @@ nav {
     font-family: 'fuente';
     gap: 3vw;
     padding: 3vw 0vw;
-    font-size: clamp(0.6rem, 1.4vw, 1.5rem);
+    font-size: clamp(0.6rem, 1.3vw, 1.5rem);
 }
 
 .actividades1 {
