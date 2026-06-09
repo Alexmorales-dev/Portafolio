@@ -285,6 +285,13 @@ nav {
     margin: 5vw 0vw;
 }
 
+@media (max-width: 768px) {
+    .container-herramientas {
+        height: auto;
+        margin: 8vw 0vw;
+    }
+}
+
 .img-hm {
     width: clamp(17vh, 14vw, 14vw);
     height: clamp(17vh, 14vw, 14vw);
