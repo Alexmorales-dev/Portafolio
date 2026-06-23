@@ -314,7 +314,7 @@ nav {
 }
 
 .stack {
-    height: 260dvh; /* espacio para scroll */
+    height: 270dvh; /* espacio para scroll */
     position: relative;
 }
 
