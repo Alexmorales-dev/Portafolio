@@ -5,13 +5,11 @@ const cards = gsap.utils.toArray(".card");
 cards.forEach((card, i) => {
   gsap.fromTo(card, 
     {
-      y: 100, 
-      opacity: 0.7,
+      y: 100,
       scale: 0.95
     },
     {
       y: 0,
-      opacity: 1,
       scale: 1,
       ease: "power2.out", // 🔥 suavidad real
       scrollTrigger: {

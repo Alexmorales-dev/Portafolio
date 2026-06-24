@@ -327,37 +327,50 @@ nav {
     height: 65dvh;
     max-height: 900px;
     min-height: 200px;
+    overflow: hidden;
     border-radius: 15px;
-    align-content:space-between;
     padding: 1vw;
-    border: solid 1px #000000;
+    border: solid 1px rgba(0, 0, 0, 0.603);
     will-change: transform;
 
 }
 
-.tarjet-titulo {
-    font-family: 'fuente1';
-    font-size: 3vw;
+@media (max-width: 425px) {
+    .card {
+        flex-direction: column;
+    }
 }
 
-span.size-icono {
+.cont-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjet-titulo {
+    font-family: 'fuente1';
+    font-size: clamp(1.5rem, 4vw, 4rem);
+}
+
+.material-symbols-outlined {
     margin: 4vw 0vw;
-    font-size: 4vw;
-    font-variation-settings: 'OPSZ' 40;
+    font-size: 10vw;
+    font-variation-settings: 'wght' 100;
 }
 
 .tarjet-descripcion {
-    position: absolute;
-    bottom: 1vw;
     font-family: 'fuente1';
-    font-size: 1.7vw;
+    font-size: clamp(1.3rem, 1.5vw, 2rem);
+}
+
+.cont-img-diseño {
+    display: flex;
 }
 
 .img-tarjet1 {
     position: absolute;
     bottom: 0;
     right: 0;
-    width: 25vw;
+    width: clamp(35vh, 25vw, 26vw);
     height: auto;
 }
 
